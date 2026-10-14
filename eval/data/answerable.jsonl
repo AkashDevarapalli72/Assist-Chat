@@ -1,0 +1,150 @@
+{"tenant": "northgate", "question": "Can an officer chase someone on foot without a partner?", "gold_id": "northgate:330:330.1:v1", "gold_value": "a violent felony suspect is fleeing"}
+{"tenant": "northgate", "question": "How long can an involuntary evaluation hold last?", "gold_id": "northgate:420:420.2:v1", "gold_value": "72 hours"}
+{"tenant": "cedarfalls", "question": "What is the deadline for putting an intervention in writing?", "gold_id": "cedarfalls:300:300.1:v1", "gold_value": "12 hours"}
+{"tenant": "northgate", "question": "How long is routine body camera footage kept?", "gold_id": "northgate:340:340.2:v2", "gold_value": "90 days"}
+{"tenant": "northgate", "question": "What is the rule for running red signals while responding to an emergency?", "gold_id": "northgate:210:210.1:v1", "gold_value": "all cases"}
+{"tenant": "northgate", "question": "What information goes out on the radio when chasing on foot?", "gold_id": "northgate:330:330.2:v1", "gold_value": "a suspect description"}
+{"tenant": "cedarfalls", "question": "What document records each evidence transfer?", "gold_id": "cedarfalls:802:802.3:v2", "gold_value": "Evidence Tracking Sheet"}
+{"tenant": "cedarfalls", "question": "What is the arrest standard in domestic violence incidents?", "gold_id": "cedarfalls:600:600.1:v1", "gold_value": "arrest of the primary aggressor when probable cause exists"}
+{"tenant": "lakeshore", "question": "Which type of container is required for collected evidence?", "gold_id": "lakeshore:802:802.1:v2", "gold_value": "sealed plastic evidence pouches"}
+{"tenant": "northgate", "question": "What is the approval turnaround for reports?", "gold_id": "northgate:700:700.2:v1", "gold_value": "two business days"}
+{"tenant": "northgate", "question": "Who must evaluate a person hit by Taser probes before booking?", "gold_id": "northgate:308:308.3:v2", "gold_value": "EMS personnel"}
+{"tenant": "lakeshore", "question": "Who should an officer request for someone in a mental health crisis?", "gold_id": "lakeshore:420:420.1:v1", "gold_value": "co-responder clinician"}
+{"tenant": "cedarfalls", "question": "How many Taser cycles can be applied before reassessing?", "gold_id": "cedarfalls:308:308.2:v2", "gold_value": "four cycles"}
+{"tenant": "northgate", "question": "What kind of offense justifies a vehicle pursuit?", "gold_id": "northgate:306:306.1:v2", "gold_value": "a violent felony"}
+{"tenant": "lakeshore", "question": "How much does the agency charge to copy public records?", "gold_id": "lakeshore:900:900.2:v1", "gold_value": "$0.25 per page"}
+{"tenant": "lakeshore", "question": "When must an emergency vehicle stop at a red light or stop sign?", "gold_id": "lakeshore:210:210.1:v1", "gold_value": "controlled intersections unless cross-traffic is clearly stopped"}
+{"tenant": "cedarfalls", "question": "What information goes out on the radio when chasing on foot?", "gold_id": "cedarfalls:330:330.2:v1", "gold_value": "the number of suspects"}
+{"tenant": "lakeshore", "question": "How many vehicles can be actively involved in a pursuit?", "gold_id": "lakeshore:306:306.2:v2", "gold_value": "three units"}
+{"tenant": "northgate", "question": "What is the maximum duration of an emergency mental health hold?", "gold_id": "northgate:420:420.2:v1", "gold_value": "72 hours"}
+{"tenant": "northgate", "question": "When must an emergency vehicle stop at a red light or stop sign?", "gold_id": "northgate:210:210.1:v1", "gold_value": "all cases"}
+{"tenant": "lakeshore", "question": "What must be broadcast during a foot pursuit besides location and direction?", "gold_id": "lakeshore:330:330.2:v1", "gold_value": "the suspect's weapon status"}
+{"tenant": "northgate", "question": "How long does an officer have to document an intervention after stopping excessive force?", "gold_id": "northgate:300:300.1:v1", "gold_value": "4 hours"}
+{"tenant": "cedarfalls", "question": "How long is routine body camera footage kept?", "gold_id": "cedarfalls:340:340.2:v2", "gold_value": "365 days"}
+{"tenant": "lakeshore", "question": "How long can an involuntary evaluation hold last?", "gold_id": "lakeshore:420:420.2:v1", "gold_value": "48 hours"}
+{"tenant": "lakeshore", "question": "What do I package evidence in?", "gold_id": "lakeshore:802:802.1:v2", "gold_value": "sealed plastic evidence pouches"}
+{"tenant": "cedarfalls", "question": "What is the cap on pursuing units without supervisor approval?", "gold_id": "cedarfalls:306:306.2:v2", "gold_value": "four units"}
+{"tenant": "cedarfalls", "question": "When are incident reports due?", "gold_id": "cedarfalls:700:700.1:v1", "gold_value": "within 16 hours of the incident"}
+{"tenant": "northgate", "question": "How much time does a supervisor have to review a use of force report?", "gold_id": "northgate:300:300.2:v1", "gold_value": "3 business days"}
+{"tenant": "northgate", "question": "Who reviews it when an officer fires a gun at someone?", "gold_id": "northgate:300:300.3:v1", "gold_value": "Critical Incident Review Board"}
+{"tenant": "cedarfalls", "question": "Who reviews it when an officer fires a gun at someone?", "gold_id": "cedarfalls:300:300.3:v1", "gold_value": "Executive Review Committee"}
+{"tenant": "cedarfalls", "question": "What is the retention period for ordinary BWC recordings?", "gold_id": "cedarfalls:340:340.2:v2", "gold_value": "365 days"}
+{"tenant": "cedarfalls", "question": "What is the limit on conducted energy weapon cycles on one subject?", "gold_id": "cedarfalls:308:308.2:v2", "gold_value": "four cycles"}
+{"tenant": "lakeshore", "question": "Is there a waiting period before taking a missing person report?", "gold_id": "lakeshore:500:500.1:v1", "gold_value": "a waiting period only for adults not considered endangered"}
+{"tenant": "cedarfalls", "question": "How many vehicles can be actively involved in a pursuit?", "gold_id": "cedarfalls:306:306.2:v2", "gold_value": "four units"}
+{"tenant": "northgate", "question": "What is the notification window for high-risk missing person reports?", "gold_id": "northgate:500:500.2:v1", "gold_value": "30 minutes"}
+{"tenant": "northgate", "question": "What is the deadline for submitting collected evidence?", "gold_id": "northgate:802:802.2:v2", "gold_value": "6 hours"}
+{"tenant": "cedarfalls", "question": "What is the per-page fee for records copies?", "gold_id": "cedarfalls:900:900.2:v1", "gold_value": "$0.15 per page"}
+{"tenant": "cedarfalls", "question": "What is the deadline for finishing an incident report?", "gold_id": "cedarfalls:700:700.1:v1", "gold_value": "within 16 hours of the incident"}
+{"tenant": "northgate", "question": "Do we have to wait before a missing person report is accepted?", "gold_id": "northgate:500:500.1:v1", "gold_value": "no waiting period"}
+{"tenant": "lakeshore", "question": "How long do supervisors have to approve an incident report?", "gold_id": "lakeshore:700:700.2:v1", "gold_value": "three business days"}
+{"tenant": "northgate", "question": "What document records each evidence transfer?", "gold_id": "northgate:802:802.3:v2", "gold_value": "Property Transfer Log"}
+{"tenant": "lakeshore", "question": "Which form tracks chain of custody?", "gold_id": "lakeshore:802:802.3:v2", "gold_value": "Chain of Custody Form 12"}
+{"tenant": "lakeshore", "question": "What is the deadline for submitting collected evidence?", "gold_id": "lakeshore:802:802.2:v2", "gold_value": "36 hours"}
+{"tenant": "lakeshore", "question": "What document records each evidence transfer?", "gold_id": "lakeshore:802:802.3:v2", "gold_value": "Chain of Custody Form 12"}
+{"tenant": "northgate", "question": "What is the per-page fee for records copies?", "gold_id": "northgate:900:900.2:v1", "gold_value": "$0.10 per page"}
+{"tenant": "northgate", "question": "Which type of container is required for collected evidence?", "gold_id": "northgate:802:802.1:v2", "gold_value": "tamper-evident paper bags"}
+{"tenant": "cedarfalls", "question": "What does policy say about deploying a Taser against a fleeing person?", "gold_id": "cedarfalls:308:308.1:v2", "gold_value": "allowed only when the subject is armed"}
+{"tenant": "northgate", "question": "Does policy require arrest in domestic violence calls?", "gold_id": "northgate:600:600.1:v1", "gold_value": "mandatory arrest when probable cause exists"}
+{"tenant": "cedarfalls", "question": "Which body handles administrative review of firearm discharges at a person?", "gold_id": "cedarfalls:300:300.3:v1", "gold_value": "Executive Review Committee"}
+{"tenant": "cedarfalls", "question": "What is the rule for running red signals while responding to an emergency?", "gold_id": "cedarfalls:210:210.1:v1", "gold_value": "every red signal and stop sign"}
+{"tenant": "lakeshore", "question": "What triggers body-worn camera activation?", "gold_id": "lakeshore:340:340.1:v2", "gold_value": "the start of any enforcement contact"}
+{"tenant": "northgate", "question": "What does policy say about deploying a Taser against a fleeing person?", "gold_id": "northgate:308:308.1:v2", "gold_value": "never permitted"}
+{"tenant": "northgate", "question": "What is the supervisory review window for force reports?", "gold_id": "northgate:300:300.2:v1", "gold_value": "3 business days"}
+{"tenant": "lakeshore", "question": "Does policy require arrest in domestic violence calls?", "gold_id": "lakeshore:600:600.1:v1", "gold_value": "a preferred-arrest approach"}
+{"tenant": "lakeshore", "question": "When is the domestic violence supplemental report due?", "gold_id": "lakeshore:600:600.2:v1", "gold_value": "72 hours"}
+{"tenant": "lakeshore", "question": "At what speed must a supervisor call off a pursuit in a residential area?", "gold_id": "lakeshore:306:306.3:v2", "gold_value": "15 mph over the posted limit"}
+{"tenant": "lakeshore", "question": "What is the arrest standard in domestic violence incidents?", "gold_id": "lakeshore:600:600.1:v1", "gold_value": "a preferred-arrest approach"}
+{"tenant": "lakeshore", "question": "What does policy say about deploying a Taser against a fleeing person?", "gold_id": "lakeshore:308:308.1:v2", "gold_value": "limited to felony suspects"}
+{"tenant": "northgate", "question": "Which form tracks chain of custody?", "gold_id": "northgate:802:802.3:v2", "gold_value": "Property Transfer Log"}
+{"tenant": "northgate", "question": "What is the deadline for putting an intervention in writing?", "gold_id": "northgate:300:300.1:v1", "gold_value": "4 hours"}
+{"tenant": "cedarfalls", "question": "How long does the agency have to fulfill a public records request?", "gold_id": "cedarfalls:900:900.1:v1", "gold_value": "20 business days"}
+{"tenant": "northgate", "question": "How long does the agency have to fulfill a public records request?", "gold_id": "northgate:900:900.1:v1", "gold_value": "10 business days"}
+{"tenant": "cedarfalls", "question": "What is the deadline for submitting collected evidence?", "gold_id": "cedarfalls:802:802.2:v2", "gold_value": "60 hours"}
+{"tenant": "northgate", "question": "How long do officers have to file the DV supplemental?", "gold_id": "northgate:600:600.2:v1", "gold_value": "48 hours"}
+{"tenant": "lakeshore", "question": "When are incident reports due?", "gold_id": "lakeshore:700:700.1:v1", "gold_value": "within 24 hours of the incident"}
+{"tenant": "cedarfalls", "question": "Who must evaluate a person hit by Taser probes before booking?", "gold_id": "cedarfalls:308:308.3:v2", "gold_value": "paramedics on scene"}
+{"tenant": "northgate", "question": "What is the deadline for finishing an incident report?", "gold_id": "northgate:700:700.1:v1", "gold_value": "before the end of the shift"}
+{"tenant": "cedarfalls", "question": "At what speed must a supervisor call off a pursuit in a residential area?", "gold_id": "cedarfalls:306:306.3:v2", "gold_value": "25 mph over the posted limit"}
+{"tenant": "cedarfalls", "question": "What speed in a residential zone forces pursuit termination?", "gold_id": "cedarfalls:306:306.3:v2", "gold_value": "25 mph over the posted limit"}
+{"tenant": "lakeshore", "question": "Who reviews it when an officer fires a gun at someone?", "gold_id": "lakeshore:300:300.3:v1", "gold_value": "Force Review Panel"}
+{"tenant": "cedarfalls", "question": "When must an emergency vehicle stop at a red light or stop sign?", "gold_id": "cedarfalls:210:210.1:v1", "gold_value": "every red signal and stop sign"}
+{"tenant": "cedarfalls", "question": "How soon must evidence be turned in to the property room?", "gold_id": "cedarfalls:802:802.2:v2", "gold_value": "60 hours"}
+{"tenant": "cedarfalls", "question": "Can I use a Taser on someone who is just running away?", "gold_id": "cedarfalls:308:308.1:v2", "gold_value": "allowed only when the subject is armed"}
+{"tenant": "cedarfalls", "question": "What is the approval turnaround for reports?", "gold_id": "cedarfalls:700:700.2:v1", "gold_value": "one business day"}
+{"tenant": "cedarfalls", "question": "How long does an officer have to document an intervention after stopping excessive force?", "gold_id": "cedarfalls:300:300.1:v1", "gold_value": "12 hours"}
+{"tenant": "lakeshore", "question": "How long does the agency have to fulfill a public records request?", "gold_id": "lakeshore:900:900.1:v1", "gold_value": "15 business days"}
+{"tenant": "lakeshore", "question": "How long is routine body camera footage kept?", "gold_id": "lakeshore:340:340.2:v2", "gold_value": "180 days"}
+{"tenant": "northgate", "question": "How much does the agency charge to copy public records?", "gold_id": "northgate:900:900.2:v1", "gold_value": "$0.10 per page"}
+{"tenant": "cedarfalls", "question": "What kind of offense justifies a vehicle pursuit?", "gold_id": "cedarfalls:306:306.1:v2", "gold_value": "a forcible felony involving a weapon"}
+{"tenant": "cedarfalls", "question": "How much time does a supervisor have to review a use of force report?", "gold_id": "cedarfalls:300:300.2:v1", "gold_value": "7 business days"}
+{"tenant": "cedarfalls", "question": "When is pre-report video review restricted?", "gold_id": "cedarfalls:340:340.3:v2", "gold_value": "a critical incident involving serious injury"}
+{"tenant": "lakeshore", "question": "What is the limit on conducted energy weapon cycles on one subject?", "gold_id": "lakeshore:308:308.2:v2", "gold_value": "five cycles"}
+{"tenant": "lakeshore", "question": "How quickly must a supervisor be told about a high-risk missing person?", "gold_id": "lakeshore:500:500.2:v1", "gold_value": "one hour"}
+{"tenant": "northgate", "question": "Which body handles administrative review of firearm discharges at a person?", "gold_id": "northgate:300:300.3:v1", "gold_value": "Critical Incident Review Board"}
+{"tenant": "lakeshore", "question": "How long do officers have to file the DV supplemental?", "gold_id": "lakeshore:600:600.2:v1", "gold_value": "72 hours"}
+{"tenant": "lakeshore", "question": "What kind of offense justifies a vehicle pursuit?", "gold_id": "lakeshore:306:306.1:v2", "gold_value": "any felony"}
+{"tenant": "northgate", "question": "What triggers body-worn camera activation?", "gold_id": "northgate:340:340.1:v2", "gold_value": "dispatch to any call for service"}
+{"tenant": "lakeshore", "question": "What is the approval turnaround for reports?", "gold_id": "lakeshore:700:700.2:v1", "gold_value": "three business days"}
+{"tenant": "northgate", "question": "What is the retention period for ordinary BWC recordings?", "gold_id": "northgate:340:340.2:v2", "gold_value": "90 days"}
+{"tenant": "northgate", "question": "Under what condition is a solo foot pursuit allowed?", "gold_id": "northgate:330:330.1:v1", "gold_value": "a violent felony suspect is fleeing"}
+{"tenant": "lakeshore", "question": "What is the cap on pursuing units without supervisor approval?", "gold_id": "lakeshore:306:306.2:v2", "gold_value": "three units"}
+{"tenant": "cedarfalls", "question": "Who should an officer request for someone in a mental health crisis?", "gold_id": "cedarfalls:420:420.1:v1", "gold_value": "mobile crisis unit"}
+{"tenant": "cedarfalls", "question": "What is the response time for records requests?", "gold_id": "cedarfalls:900:900.1:v1", "gold_value": "20 business days"}
+{"tenant": "lakeshore", "question": "What is the retention period for ordinary BWC recordings?", "gold_id": "lakeshore:340:340.2:v2", "gold_value": "180 days"}
+{"tenant": "cedarfalls", "question": "In what situation can an officer not watch their own footage before writing a report?", "gold_id": "cedarfalls:340:340.3:v2", "gold_value": "a critical incident involving serious injury"}
+{"tenant": "cedarfalls", "question": "What resource is called to a mental health crisis call?", "gold_id": "cedarfalls:420:420.1:v1", "gold_value": "mobile crisis unit"}
+{"tenant": "cedarfalls", "question": "When is the domestic violence supplemental report due?", "gold_id": "cedarfalls:600:600.2:v1", "gold_value": "24 hours"}
+{"tenant": "northgate", "question": "What is the response time for records requests?", "gold_id": "northgate:900:900.1:v1", "gold_value": "10 business days"}
+{"tenant": "cedarfalls", "question": "When am I allowed to chase a suspect in a car?", "gold_id": "cedarfalls:306:306.1:v2", "gold_value": "a forcible felony involving a weapon"}
+{"tenant": "lakeshore", "question": "What speed in a residential zone forces pursuit termination?", "gold_id": "lakeshore:306:306.3:v2", "gold_value": "15 mph over the posted limit"}
+{"tenant": "lakeshore", "question": "Under what condition is a solo foot pursuit allowed?", "gold_id": "lakeshore:330:330.1:v1", "gold_value": "exigent circumstances exist"}
+{"tenant": "lakeshore", "question": "What medical check is required after a CEW probe strike?", "gold_id": "lakeshore:308:308.3:v2", "gold_value": "a physician at an emergency department"}
+{"tenant": "northgate", "question": "At what speed must a supervisor call off a pursuit in a residential area?", "gold_id": "northgate:306:306.3:v2", "gold_value": "20 mph over the posted limit"}
+{"tenant": "cedarfalls", "question": "Do we have to wait before a missing person report is accepted?", "gold_id": "cedarfalls:500:500.1:v1", "gold_value": "no waiting period and immediate NCIC entry"}
+{"tenant": "cedarfalls", "question": "What is the supervisory review window for force reports?", "gold_id": "cedarfalls:300:300.2:v1", "gold_value": "7 business days"}
+{"tenant": "lakeshore", "question": "What is the maximum duration of an emergency mental health hold?", "gold_id": "lakeshore:420:420.2:v1", "gold_value": "48 hours"}
+{"tenant": "cedarfalls", "question": "Does policy require arrest in domestic violence calls?", "gold_id": "cedarfalls:600:600.1:v1", "gold_value": "arrest of the primary aggressor when probable cause exists"}
+{"tenant": "cedarfalls", "question": "How quickly must a supervisor be told about a high-risk missing person?", "gold_id": "cedarfalls:500:500.2:v1", "gold_value": "two hours"}
+{"tenant": "cedarfalls", "question": "What is the maximum duration of an emergency mental health hold?", "gold_id": "cedarfalls:420:420.2:v1", "gold_value": "96 hours"}
+{"tenant": "cedarfalls", "question": "What must be broadcast during a foot pursuit besides location and direction?", "gold_id": "cedarfalls:330:330.2:v1", "gold_value": "the number of suspects"}
+{"tenant": "cedarfalls", "question": "What triggers body-worn camera activation?", "gold_id": "cedarfalls:340:340.1:v2", "gold_value": "arrival at any call involving a possible arrest"}
+{"tenant": "lakeshore", "question": "How much time does a supervisor have to review a use of force report?", "gold_id": "lakeshore:300:300.2:v1", "gold_value": "5 business days"}
+{"tenant": "cedarfalls", "question": "What do I package evidence in?", "gold_id": "cedarfalls:802:802.1:v2", "gold_value": "heat-sealed evidence envelopes"}
+{"tenant": "lakeshore", "question": "What is the supervisory review window for force reports?", "gold_id": "lakeshore:300:300.2:v1", "gold_value": "5 business days"}
+{"tenant": "northgate", "question": "How long do supervisors have to approve an incident report?", "gold_id": "northgate:700:700.2:v1", "gold_value": "two business days"}
+{"tenant": "lakeshore", "question": "What is the response time for records requests?", "gold_id": "lakeshore:900:900.1:v1", "gold_value": "15 business days"}
+{"tenant": "cedarfalls", "question": "How much does the agency charge to copy public records?", "gold_id": "cedarfalls:900:900.2:v1", "gold_value": "$0.15 per page"}
+{"tenant": "lakeshore", "question": "Can I use a Taser on someone who is just running away?", "gold_id": "lakeshore:308:308.1:v2", "gold_value": "limited to felony suspects"}
+{"tenant": "lakeshore", "question": "What resource is called to a mental health crisis call?", "gold_id": "lakeshore:420:420.1:v1", "gold_value": "co-responder clinician"}
+{"tenant": "lakeshore", "question": "When am I allowed to chase a suspect in a car?", "gold_id": "lakeshore:306:306.1:v2", "gold_value": "any felony"}
+{"tenant": "cedarfalls", "question": "When do officers have to turn on their body cameras?", "gold_id": "cedarfalls:340:340.1:v2", "gold_value": "arrival at any call involving a possible arrest"}
+{"tenant": "lakeshore", "question": "When is pre-report video review restricted?", "gold_id": "lakeshore:340:340.3:v2", "gold_value": "any in-custody death"}
+{"tenant": "northgate", "question": "When am I allowed to chase a suspect in a car?", "gold_id": "northgate:306:306.1:v2", "gold_value": "a violent felony"}
+{"tenant": "lakeshore", "question": "Who must evaluate a person hit by Taser probes before booking?", "gold_id": "lakeshore:308:308.3:v2", "gold_value": "a physician at an emergency department"}
+{"tenant": "northgate", "question": "How many vehicles can be actively involved in a pursuit?", "gold_id": "northgate:306:306.2:v2", "gold_value": "two units"}
+{"tenant": "lakeshore", "question": "Do we have to wait before a missing person report is accepted?", "gold_id": "lakeshore:500:500.1:v1", "gold_value": "a waiting period only for adults not considered endangered"}
+{"tenant": "lakeshore", "question": "How many Taser cycles can be applied before reassessing?", "gold_id": "lakeshore:308:308.2:v2", "gold_value": "five cycles"}
+{"tenant": "cedarfalls", "question": "How long do officers have to file the DV supplemental?", "gold_id": "cedarfalls:600:600.2:v1", "gold_value": "24 hours"}
+{"tenant": "lakeshore", "question": "What is the deadline for finishing an incident report?", "gold_id": "lakeshore:700:700.1:v1", "gold_value": "within 24 hours of the incident"}
+{"tenant": "northgate", "question": "When is the domestic violence supplemental report due?", "gold_id": "northgate:600:600.2:v1", "gold_value": "48 hours"}
+{"tenant": "northgate", "question": "How soon must evidence be turned in to the property room?", "gold_id": "northgate:802:802.2:v2", "gold_value": "6 hours"}
+{"tenant": "northgate", "question": "What is the arrest standard in domestic violence incidents?", "gold_id": "northgate:600:600.1:v1", "gold_value": "mandatory arrest when probable cause exists"}
+{"tenant": "lakeshore", "question": "In what situation can an officer not watch their own footage before writing a report?", "gold_id": "lakeshore:340:340.3:v2", "gold_value": "any in-custody death"}
+{"tenant": "northgate", "question": "Who should an officer request for someone in a mental health crisis?", "gold_id": "northgate:420:420.1:v1", "gold_value": "Crisis Intervention Team officer"}
+{"tenant": "northgate", "question": "How quickly must a supervisor be told about a high-risk missing person?", "gold_id": "northgate:500:500.2:v1", "gold_value": "30 minutes"}
+{"tenant": "cedarfalls", "question": "How long do supervisors have to approve an incident report?", "gold_id": "cedarfalls:700:700.2:v1", "gold_value": "one business day"}
+{"tenant": "lakeshore", "question": "When do officers have to turn on their body cameras?", "gold_id": "lakeshore:340:340.1:v2", "gold_value": "the start of any enforcement contact"}
+{"tenant": "northgate", "question": "Is there a waiting period before taking a missing person report?", "gold_id": "northgate:500:500.1:v1", "gold_value": "no waiting period"}
+{"tenant": "northgate", "question": "What speed in a residential zone forces pursuit termination?", "gold_id": "northgate:306:306.3:v2", "gold_value": "20 mph over the posted limit"}
+{"tenant": "lakeshore", "question": "How long does an officer have to document an intervention after stopping excessive force?", "gold_id": "lakeshore:300:300.1:v1", "gold_value": "8 hours"}
+{"tenant": "cedarfalls", "question": "Can an officer chase someone on foot without a partner?", "gold_id": "cedarfalls:330:330.1:v1", "gold_value": "an imminent threat to others exists"}
+{"tenant": "cedarfalls", "question": "Under what condition is a solo foot pursuit allowed?", "gold_id": "cedarfalls:330:330.1:v1", "gold_value": "an imminent threat to others exists"}
+{"tenant": "cedarfalls", "question": "Is there a waiting period before taking a missing person report?", "gold_id": "cedarfalls:500:500.1:v1", "gold_value": "no waiting period and immediate NCIC entry"}
+{"tenant": "lakeshore", "question": "What is the deadline for putting an intervention in writing?", "gold_id": "lakeshore:300:300.1:v1", "gold_value": "8 hours"}
+{"tenant": "northgate", "question": "What resource is called to a mental health crisis call?", "gold_id": "northgate:420:420.1:v1", "gold_value": "Crisis Intervention Team officer"}
+{"tenant": "cedarfalls", "question": "How long can an involuntary evaluation hold last?", "gold_id": "cedarfalls:420:420.2:v1", "gold_value": "96 hours"}
+{"tenant": "northgate", "question": "What is the limit on conducted energy weapon cycles on one subject?", "gold_id": "northgate:308:308.2:v2", "gold_value": "three cycles"}
+{"tenant": "lakeshore", "question": "Can an officer chase someone on foot without a partner?", "gold_id": "lakeshore:330:330.1:v1", "gold_value": "exigent circumstances exist"}
+{"tenant": "cedarfalls", "question": "Which form tracks chain of custody?", "gold_id": "cedarfalls:802:802.3:v2", "gold_value": "Evidence Tracking Sheet"}
+{"tenant": "northgate", "question": "When is pre-report video review restricted?", "gold_id": "northgate:340:340.3:v2", "gold_value": "an officer-involved shooting"}

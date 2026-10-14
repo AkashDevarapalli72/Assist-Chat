@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assist Chat</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --ink:#1b1f24; --mute:#5b6570; --line:#dde1e6; --acc:#3b3489; --warn:#8a3b12; --warnbg:#fdf0e8; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#121417; --card:#1b1f24; --ink:#e8eaed; --mute:#9aa4af; --line:#2e353d; --acc:#a9a3f5; --warn:#f0a77c; --warnbg:#2a1d14; } }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.5 system-ui, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:24px 16px; }
+  h1 { font-size:1.3rem; margin:0 0 16px; }
+  .row { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:12px; }
+  select, input, button { font:inherit; padding:10px 12px; border:1px solid var(--line); border-radius:8px; background:var(--card); color:var(--ink); }
+  input { flex:1; min-width:200px; }
+  button { background:var(--acc); color:var(--bg); border-color:var(--acc); cursor:pointer; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; margin-top:12px; }
+  .refuse { background:var(--warnbg); color:var(--warn); border-color:var(--warn); }
+  .cite { font-size:.9rem; color:var(--mute); margin-top:8px; }
+  .tag { display:inline-block; padding:1px 8px; border:1px solid var(--line); border-radius:99px; font-size:.8rem; margin-right:6px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Assist Chat — policy Q&amp;A with citations</h1>
+  <div class="row">
+    <select id="tenant" aria-label="Agency"></select>
+    <input id="asof" type="date" aria-label="As-of date (optional)">
+  </div>
+  <div class="row">
+    <input id="q" placeholder="Ask about this agency's policies…" aria-label="Question">
+    <button id="go">Ask</button>
+  </div>
+  <div id="out"></div>
+</main>
+<script>
+let token = "";
+const $ = id => document.getElementById(id);
+async function setTenant() {
+  const r = await fetch("/api/dev-token/" + $("tenant").value, {method: "POST"});
+  token = (await r.json()).token;
+  $("out").innerHTML = "";
+}
+async function init() {
+  const ts = await (await fetch("/api/tenants")).json();
+  $("tenant").innerHTML = ts.map(t => `<option value="${t.id}">${t.name}</option>`).join("");
+  $("tenant").onchange = setTenant;
+  await setTenant();
+}
+function esc(s) { const d = document.createElement("div"); d.textContent = s; return d.innerHTML; }
+async function ask() {
+  const body = {question: $("q").value};
+  if ($("asof").value) body.as_of = $("asof").value;
+  const r = await fetch("/api/ask", {method: "POST", headers: {"Content-Type": "application/json", Authorization: "Bearer " + token}, body: JSON.stringify(body)});
+  const d = await r.json();
+  if (!r.ok) { $("out").innerHTML = `<div class="card refuse">${esc(d.detail || "error")}</div>`; return; }
+  const cites = d.citations.map(c => `<div class="cite"><span class="tag">${esc(c.id)}</span>Policy ${esc(c.policy_number)} §${esc(c.section_number)} ${esc(c.section_title)} · effective ${esc(c.effective_date)} · ${esc(c.status)}</div>`).join("");
+  const near = (d.closest_sections || []).map(c => `<div class="cite">Closest: Policy ${esc(c.policy_number)} §${esc(c.section_number)} ${esc(c.section_title)}</div>`).join("");
+  $("out").innerHTML = d.refused
+    ? `<div class="card refuse"><strong>${esc(d.answer)}</strong><div class="cite">${esc(d.reason)}</div>${near}</div>`
+    : `<div class="card">${esc(d.answer)}${cites}</div>`;
+}
+$("go").onclick = ask;
+$("q").onkeydown = e => { if (e.key === "Enter") ask(); };
+init();
+</script>
+</body>
+</html>

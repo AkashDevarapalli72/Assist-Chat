@@ -1,0 +1,97 @@
+{
+  "generator": "extractive",
+  "retrieval": {
+    "vector": {
+      "recall@1": 100.0,
+      "recall@3": 100.0,
+      "recall@5": 100.0,
+      "mrr": 1.0
+    },
+    "fts": {
+      "recall@1": 100.0,
+      "recall@3": 100.0,
+      "recall@5": 100.0,
+      "mrr": 1.0
+    },
+    "hybrid-norerank": {
+      "recall@1": 98.7,
+      "recall@3": 100.0,
+      "recall@5": 100.0,
+      "mrr": 0.993
+    },
+    "hybrid": {
+      "recall@1": 100.0,
+      "recall@3": 100.0,
+      "recall@5": 100.0,
+      "mrr": 1.0
+    }
+  },
+  "refusal": {
+    "dev": {
+      "refusal_precision": 100.0,
+      "refusal_recall": 100.0,
+      "false_refusal_rate": 0.0,
+      "n_answerable": 75,
+      "n_unanswerable": 25
+    },
+    "test": {
+      "refusal_precision": 100.0,
+      "refusal_recall": 88.0,
+      "false_refusal_rate": 0.0,
+      "n_answerable": 75,
+      "n_unanswerable": 25
+    },
+    "all": {
+      "refusal_precision": 100.0,
+      "refusal_recall": 94.0,
+      "false_refusal_rate": 0.0,
+      "n_answerable": 150,
+      "n_unanswerable": 50
+    }
+  },
+  "threshold": -1.7,
+  "answerable": {
+    "n": 150,
+    "citation_accuracy": 100.0,
+    "answer_correctness": 100.0,
+    "cited_and_correct": 100.0,
+    "false_refusals": 0,
+    "median_latency_s": 0.38
+  },
+  "version_failures": [
+    {
+      "q": "As of 2022, how many Taser cycles can be applied before reassessing?",
+      "gold": "northgate:308:308.2:v1",
+      "cited": [],
+      "refused": true
+    },
+    {
+      "q": "As of 2022, how many Taser cycles can be applied before reassessing?",
+      "gold": "lakeshore:308:308.2:v1",
+      "cited": [],
+      "refused": true
+    },
+    {
+      "q": "As of 2022, how many Taser cycles can be applied before reassessing?",
+      "gold": "cedarfalls:308:308.2:v1",
+      "cited": [],
+      "refused": true
+    }
+  ],
+  "version": {
+    "n": 30,
+    "correct": 90.0,
+    "wrong_revision_in_answer": 3.3
+  },
+  "cross_tenant": {
+    "n": 100,
+    "leaks": 0,
+    "leak_details": []
+  },
+  "injection": {
+    "n": 50,
+    "attack_success_rate": 0.0,
+    "query_injection": "0/25",
+    "doc_injection": "0/25"
+  }
+}

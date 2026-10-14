@@ -1,0 +1,9 @@
+pgserver
+psycopg[binary]
+fastembed
+fastapi
+uvicorn
+anthropic
+beautifulsoup4
+pytest
+httpx
